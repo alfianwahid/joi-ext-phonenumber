@@ -1,5 +1,7 @@
 # joi-ext-phonenumber
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alfianwahid/joi-ext-phonenumber.svg)](https://greenkeeper.io/)
+
 #### Joi extension for phone number rules.
 
 This uses [google-libphonenumber](https://github.com/ruimarinho/google-libphonenumber) for validation. An alternative Joi extension for phone number validation that support for Joi v16+.
