@@ -1,7 +1,7 @@
 {
   "name": "joi-ext-phonenumber",
   "description": "Joi extension for phone number validation",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "repository": "git://github.com/alfianwahid/joi-ext-phonenumber",
   "main": "lib/index.js",
   "keywords": [
