@@ -11,12 +11,12 @@
     "phone number"
   ],
   "dependencies": {
-    "google-libphonenumber": "^3.2.6"
+    "google-libphonenumber": "^3.2.27"
   },
   "devDependencies": {
-    "@hapi/code": "^8.0.1",
-    "@hapi/joi": "^17.0.2",
-    "@hapi/lab": "^22.0.3"
+    "@hapi/code": "^8.0.7",
+    "@hapi/lab": "^24.5.1",
+    "joi": "^17.6.0"
   },
   "scripts": {
     "test": "lab -v -t 100 -a @hapi/code -L",

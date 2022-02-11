@@ -1,7 +1,5 @@
 # joi-ext-phonenumber
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/alfianwahid/joi-ext-phonenumber.svg)](https://greenkeeper.io/)
-
 #### Joi extension for phone number rules.
 
 This uses [google-libphonenumber](https://github.com/ruimarinho/google-libphonenumber) for validation. An alternative Joi extension for phone number validation that support for Joi v17+ (node >= 12).
@@ -13,7 +11,7 @@ This is extended from `Joi.string()` base. So, the schema can constructed using 
 - This requires Joi v17 or newer .
 - This requires Node.js 12 or newer.
 
-If you are unfamiliar with Joi, you should read [Joi Documentation and API](https://hapi.dev/family/joi/)
+If you are unfamiliar with Joi, you should read [Joi Documentation and API](https://joi.dev/api/)
 
 ## Installation
 
@@ -24,7 +22,7 @@ $ npm install joi-ext-phonenumber --save
 ## Usage
 
 ```js
-const Joi = require('@hapi/joi');
+const Joi = require('joi');
 const customJoi = Joi.extend(require('joi-ext-phonenumber'));
 
 const schema = customJoi.string().phoneNumber();
